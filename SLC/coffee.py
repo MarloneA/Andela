@@ -21,11 +21,9 @@ def make_coffee(*options):
 	else:
 		coffee = 'Tasty coffee'
 	
-	print('Started making coffee...')
-	print('Getting cup...')
+	print('Started making coffee...\n Getting cup...')
 	print('Adding {}'.format(', '.join(ingredients)))
-	print('Stir the mix...')
-	print('Finished making the coffee...')
+	print('Stir the mix...\n Finished making the coffee...')
 
 	return coffee
 
