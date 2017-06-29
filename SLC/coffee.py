@@ -15,4 +15,4 @@ print('Adding {}'.format(', '.join(ingredients)))
 print('Stir the mix...')
 print('Finished making the cofee...')
 my_coffee = 'Tasty coffee'
-print("--Here's your {} {}. Enjoy!!--\n".format(my_coffee, 'Evans'))
+#print("--Here's your {} {}. Enjoy!!--\n".format(my_coffee, 'Evans'))
