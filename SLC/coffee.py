@@ -24,7 +24,7 @@ print('Getting cup...')
 print('Adding {}'.format(', '.join(ingredients)))
 print('Stir the mix...')
 print('Finished making the cofee...')
-my_coffee = 'Tasty coffee'
+your_coffee = 'Tasty coffee'
 print("--Here's your {} {}. Enjoy!!--\n".format(my_coffee, 'you'))
 
 #Make Gibbs' coffee
@@ -34,6 +34,6 @@ print('Getting cup...')
 print('Adding {}'.format(', '.join(ingredients)))
 print('Stir the mix...')
 print('Finished making the cofee...')
-my_coffee = 'Tasty coffee'
+gibbs_coffee = 'Tasty coffee'
 print("--Here's your {} {}. Enjoy!!--\n".format(my_coffee, 'Gibbs'))
 
