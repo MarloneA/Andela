@@ -4,13 +4,9 @@ module.exports = {
 
     /* Find the factorial of an integer */
     computeFactorial: (value) => {
-        //For non-numeric input
-        if (typeof(value) != 'number'){
+        //For non-numeric or negative input
+        if (typeof(value) != 'number' || value < 0){
              return 'undefined';
-        }
-        //For negative input
-        else if (value < 0){
-            return 'undefined';
         }
         //For normal input
         else {
