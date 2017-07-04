@@ -18,6 +18,6 @@ def data_type(arg):
         if len(arg) < 3:
             return None
         else:
-            return len(arg)
+            return arg[2]
     if arg is None:
         return 'no value'
