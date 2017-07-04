@@ -11,5 +11,3 @@ def fizz_buzz(i):
             return i
     else: # 0 or less
         return 'Invalid Argument'
-
-fizz_buzz(1)
