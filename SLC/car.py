@@ -1,10 +1,10 @@
 class Car(object):
     """ This is the car class """
 
-    def __init__(self, name, model, car_type): # default car properties
-        self.name = 'General'
-        self.model = 'GM'
-        self.car_type = 'car'
+    def __init__(self, name = 'General', model = 'GM', car_type = 'default'): # default car properties
+        self.name = name
+        self.model = model
+        self.car_type = car_type
 
         if self.name == 'Porshe' or self.name == 'Koenigsegg': # number of doors
             self.num_of_doors = 2
