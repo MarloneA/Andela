@@ -4,19 +4,15 @@ class Car(object):
     def __init__(self, name, model, car_type): # default car properties
         self.name = 'General'
         self.model = 'GM'
-    
-    """ defining car properties """
-    self.name = name
-    self.model = model
-    self.car_type = car_type
+        self.car_type = 'car'
 
-    if self.name == 'Porshe' or self.name == 'Koenigsegg': # number of doors
-        self.num_of_doors = 2
-    else:
-        self.num_of_doors = 4
+        if self.name == 'Porshe' or self.name == 'Koenigsegg': # number of doors
+            self.num_of_doors = 2
+        else:
+            self.num_of_doors = 4
 
-    if self.car_type != 'trailer': # number of wheels
-        self.num_of_wheels = 4
+        if self.car_type != 'trailer': # number of wheels
+            self.num_of_wheels = 4
 
     def is_saloon(self):
         if self.num_of_wheels == 4:
@@ -25,5 +21,9 @@ class Car(object):
         else:
             return False
     
-    #def drive(self):
-        
+    def drive(self, force_on_pedal):
+        if self.car_type == 'trailer':
+            self.speed = 11 * force_on_pedal
+        else:
+            self.speed = 10 ** force_on_pedal
+        return self.speed
