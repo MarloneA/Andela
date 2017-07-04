@@ -6,14 +6,13 @@ class Car(object):
         self.model = model
         self.car_type = car_type
         self.speed = 0
+        self.num_of_wheels = 4
+        self.num_of_doors = 4
 
         if self.name == 'Porshe' or self.name == 'Koenigsegg': # number of doors
             self.num_of_doors = 2
-        else:
-            self.num_of_doors = 4
-
-        if self.car_type != 'trailer': # number of wheels
-            self.num_of_wheels = 4
+        if self.car_type == 'trailer': # number of wheels
+            self.num_of_wheels = 8
 
     def is_saloon(self):
         if self.num_of_wheels == 4:
@@ -22,9 +21,9 @@ class Car(object):
         else:
             return False
     
-    def drive(self, force_on_pedal):
+    def drive(self, speed):
         if self.car_type == 'trailer':
-            self.speed = 11 * force_on_pedal
+            self.speed = 11 * speed
         else:
-            self.speed = 10 ** force_on_pedal
-        return self.speed
+            self.speed = 10 ** speed
+        return self
