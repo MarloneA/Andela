@@ -5,6 +5,7 @@ class Car(object):
         self.name = name
         self.model = model
         self.car_type = car_type
+        self.speed = 0
 
         if self.name == 'Porshe' or self.name == 'Koenigsegg': # number of doors
             self.num_of_doors = 2
