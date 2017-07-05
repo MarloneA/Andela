@@ -1,13 +1,8 @@
-""" Using the unittest framework """
+""" Using the pytest framework """
 
 #import modules
 from primes import *
-import unittest
-
-class TestPrimes(unittest.TestCase):
+import py.test
     
-    def test_invalid_input(self):
-        self.assertRaises(TypeError, primes, 'string')
-
-if __name__ == '__main__':
-    unittest.main()
+def test_invalid_input():
+    py.test.raises(TypeError, primes, 'string')
