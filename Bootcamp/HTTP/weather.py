@@ -1,9 +1,9 @@
 import urllib
 import json
 """
-    Simple Weather API using the open weather data API
+    Simple Weather app using the Open Weather Map API.
     In this app, you'll be entering the city of choice,
-    and you'll be able to know the current weather there :D
+    and you'll be able to know the current weather in that city :D
 """
 city = raw_input('Enter your city\n')
 url = 'http://api.openweathermap.org/data/2.5/weather'
