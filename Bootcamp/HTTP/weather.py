@@ -9,5 +9,5 @@ url = 'http://api.openweathermap.org/data/2.5/weather'
 values = {'APPID': '4cdcbe29c9a481e33adf4d520f072685', 'q': city}
 data = urllib.urlencode(values)
 
-json = urllib.urlopen(url, data).read()
+json = urllib.urlopen('http://api.openweathermap.org/data/2.5/weather?%s' % data).read()
 print json
