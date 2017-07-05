@@ -11,3 +11,4 @@ def words(string_input):
                 continue
             else:
                 count_dict[word] = word_list.count(word)
+        return count_dict
