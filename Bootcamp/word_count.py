@@ -5,10 +5,11 @@ def words(string_input):
         return False
     else:
         word_list = string_input.split()
-        count_dict = {}
+        print word_list
+        """count_dict = {}
         for word in word_list:
             if word in count_dict:
                 continue
             else:
                 count_dict[word] = word_list.count(word)
-        return count_dict
+        return count_dict"""
