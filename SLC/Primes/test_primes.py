@@ -1,10 +1,6 @@
 """ Using the unittest framework """
 
-# Test cases:
-# integer input. should be a number
-# input greater or equal to 2
-# is_prime (only two factors: 1 and self) - primality
-
+#import modules
 from primes import *
 import unittest
 
