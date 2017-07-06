@@ -1,5 +1,10 @@
 import pytest
-from binary_search import List
+#from binary_search import List
+from binary_search import BinarySearch
+
+""" Test List Creation """
+
+"""
 
 def test_list_creation_one(): # normal list creation
     new_list = List(4, 2)
@@ -30,3 +35,16 @@ def test_list_creation_no_length_no_step(): # list with no element and no step -
     new_list = List(0, 0)
     assert new_list.create_list() == []
     assert new_list.length == 0
+
+"""
+
+""" Test Binary Search """
+
+def test_binary_search():
+    mock_list = [2, 3, 4]
+
+    new_list = List(3, 0)
+    assert new_list.create_list() == [2, 2, 2]
+
+    new_search = BinarySearch(mock_list)
+    assert new_search.search(3) == {'work_done': 1}
