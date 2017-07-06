@@ -94,4 +94,16 @@ a:hover {
 
 #search_bar_voice {
     overflow: hidden;
+    line-height: 0;
+}
+
+#search_bar_voice_icon {
+    padding: 1em;
+    display: inline-block;
+}
+
+#search_bar_voice_icon img {
+    width: 12px;
+    height: auto;
+    display: block;
 }
