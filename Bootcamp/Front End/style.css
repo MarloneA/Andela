@@ -107,3 +107,7 @@ a:hover {
     height: auto;
     display: block;
 }
+
+textarea:focus, input:focus{
+    outline: none;
+}
