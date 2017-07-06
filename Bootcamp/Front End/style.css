@@ -24,3 +24,19 @@ a:hover {
     margin: 0;
     padding: 0;
 }
+
+#menu {
+    float: right;
+}
+
+#left_footer_links {
+    float: left;
+}
+
+#right_footer_links {
+    float: right;
+}
+
+.spacer {
+    clear: both;
+}
