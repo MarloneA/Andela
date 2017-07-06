@@ -6,23 +6,29 @@ body {
 }
 
 a {
-	text-decoration:none;
+	text-decoration: none;
     color: #222;
     font-size: 13px;
 }
 
 a:hover {
-	text-decoration:underline;
+	text-decoration: underline;
 }
 
 .wrapper {
     text-align: center;
+    margin: auto;
+    padding: 1rem 2rem;
 }
 
 .link_list {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.link_list li {
+    padding: 10px;
 }
 
 #menu {
