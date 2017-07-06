@@ -29,11 +29,23 @@ a:hover {
     float: right;
 }
 
+#menu li {
+    float: right;
+}
+
 #left_footer_links {
     float: left;
 }
 
+#left_footer_links li {
+    float: left;
+}
+
 #right_footer_links {
+    float: right;
+}
+
+#right_footer_links li {
     float: right;
 }
 
