@@ -68,6 +68,10 @@ a:hover {
 	-moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
 	-o-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
 }
 
 #search_bar:hover {
@@ -83,6 +87,10 @@ a:hover {
     border: 1px solid #F2F2F2;
     padding: 10px;
     font-weight: bold;
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
 }
 
 .search_buttons:hover {
