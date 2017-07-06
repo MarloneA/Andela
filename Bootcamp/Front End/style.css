@@ -7,7 +7,7 @@ body {
 
 a {
 	text-decoration: none;
-    color: #222;
+    color: #555;
     font-size: 13px;
 }
 
@@ -57,4 +57,10 @@ a:hover {
 
 .spacer {
     clear: both;
+}
+
+#search_bar {
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px solid #EAEAEA;
 }
