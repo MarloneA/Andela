@@ -8,7 +8,7 @@ import re
 """
 def get_city():
     city = raw_input('Enter your city\n')
-    if re.match(r'^[a-zA-Z]+$', city):
+    if re.match(r'^[a-zA-Z\s]+$', city):
         return city
     else:
         return get_city()
@@ -20,4 +20,5 @@ data = urllib.urlencode(values)
 
 response_string = urllib.urlopen('http://api.openweathermap.org/data/2.5/weather?%s' % data).read()
 json = json.loads(response_string)
+
 print 'The weather in {} is {}'.format(city, json['weather'][0]['description'])
