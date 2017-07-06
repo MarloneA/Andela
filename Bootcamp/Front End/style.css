@@ -63,4 +63,14 @@ a:hover {
     margin: 2rem 0;
     padding: 1rem;
     border: 1px solid #EAEAEA;
+    width: 50%;
+    display: inline-block;
+}
+
+.search_buttons {
+    color: #757575;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    padding: 10px;
+    font-weight: bold;
 }
