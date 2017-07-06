@@ -4,8 +4,6 @@ from binary_search import BinarySearch
 
 """ Test List Creation """
 
-"""
-
 def test_list_creation_one(): # normal list creation
     new_list = List(4, 2)
     assert new_list.create_list() == [2, 4, 6, 8]
@@ -35,9 +33,7 @@ def test_list_creation_no_length_no_step(): # list with no element and no step -
     new_list = List(0, 0)
     assert new_list.create_list() == []
     assert new_list.length == 0
-
-"""
-
+    
 """ Test Binary Search """
 
 def test_binary_search_small_list(): # test small list
