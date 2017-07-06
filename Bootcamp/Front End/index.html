@@ -23,10 +23,13 @@
     <main>
         <div class = 'wrapper'>
             <div id = 'logo'><img src = 'assets/google_logo.png' /></div>
-            <div id = 'search_bar'>Search bar</div>
+            <div id = 'search_bar'>
+                <div id = 'search_bar_input'><input type = 'text' name = 'search_bar_input_text'></div>
+                <div id = 'search_bar_voice'>v</div>
+            </div>
             <div id = 'search_buttons_container'>
-                <input type = 'submit' id = 'default_search_button' class = 'search_buttons' value = 'Google Search'>
-                <input type = 'submit' id = 'lucky_search_button' class = 'search_buttons' value = 'I&apos;m Feeling Lucky'>
+                <input type = 'submit' id = 'default_search_button' name = 'default_search_button' class = 'search_buttons' value = 'Google Search'>
+                <input type = 'submit' id = 'lucky_search_button' name = 'lucky_search_button' class = 'search_buttons' value = 'I&apos;m Feeling Lucky'>
             </div>
             <div class = 'spacer'></div>
         </div>

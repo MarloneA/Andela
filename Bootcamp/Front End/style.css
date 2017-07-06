@@ -61,7 +61,6 @@ a:hover {
 
 #search_bar {
     margin: 2rem 0;
-    padding: 1rem;
     border: 1px solid #EAEAEA;
     width: 50%;
     display: inline-block;
@@ -79,4 +78,20 @@ a:hover {
     color: #000;
     background: #FAFAFA;
     border: 1px solid #CCC;
+}
+
+#search_bar_input {
+    float: left;
+    width: 90%;
+}
+
+#search_bar_input input{
+    width: 90%;
+    padding: 1em;
+    float: right;
+    border: 0;
+}
+
+#search_bar_voice {
+    overflow: hidden;
 }
