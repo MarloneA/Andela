@@ -1,5 +1,6 @@
 import urllib
 import json
+import re
 """
     Simple Weather app using the Open Weather Map API.
     In this app, you'll be entering the city of choice,
@@ -7,10 +8,10 @@ import json
 """
 def get_city():
     city = raw_input('Enter your city\n')
-    if city.isdigit():
-        return get_city()
-    else:
+    if re.match(r'^[a-zA-Z]+$', city):
         return city
+    else:
+        return get_city()
 
 city = get_city()
 url = 'http://api.openweathermap.org/data/2.5/weather'
