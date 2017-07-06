@@ -111,3 +111,24 @@ a:hover {
 textarea:focus, input:focus{
     outline: none;
 }
+
+#menu_sign_in_button {
+    background: #4285F4;
+    border: 1px solid #4285F4;
+    color: #FFF;
+    padding: 7px 1em;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: default;
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+#menu_sign_in_button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	-o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
