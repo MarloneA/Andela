@@ -160,3 +160,20 @@ footer {
 footer > .wrapper {
     padding: 0 2rem;
 }
+
+#display_app_menu img {
+    object-fit: none;
+    object-position: -130px -35px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    opacity: 0.5;
+}
+
+#display_app_menu img:hover {
+    opacity: 0.85;
+}
+
+#display_app_menu_item {
+    padding: 3px;
+}
